@@ -1,0 +1,77 @@
+/* App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #EFF2FB;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 900px;
+  text-align: center;
+}
+
+input {
+  padding: 12px;
+  margin-right: 8px;
+  border: 3px solid #CECEF6;
+  border-radius: 15px;
+  width: 85%; /* Increase the width of the search input */
+  font-size: 16px;
+  color: #585858;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #CECEF6; /* A darker shade of blue-gray */
+  color: #EFF2FB;
+  border: 1px solid #CECEF6;
+  border-radius: 30px; /* Slightly rounded corners for a softer look */
+  cursor: pointer;
+  font-size: 16px;
+  color: #585858;
+}
+
+button:hover {
+  background-color: #A9A9F5;
+  border: 1px solid #A9A9F5;
+}
+
+h1 {
+  color: #585858;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  border-radius: 15px;
+  margin-bottom: 10px; /* Add margin to create spacing between items */
+  transition: background-color 0.3s;
+}
+
+li:last-child {
+  border-bottom: none;
+  margin-bottom: 0; /* Remove margin from the last item */
+}
+
